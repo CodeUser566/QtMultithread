@@ -63,7 +63,7 @@ void Work::modularChaoticMap()
 {
     // эмуляция ресурсоёмкой работы:
     // цикл от 0 до 100, в котором считаем сложное выражение
-    for(int p = 0; p <= 1000; ++p) {
+    for(int p = 0; p <= 100; ++p) {
         double x = 0;
         for(int i = 0; i < 5; ++i) {
             const int mod = 10000;
@@ -106,31 +106,27 @@ Work::Work(int index, QObject *parent):
 
 void Work::Process(){
     int number = Roll();
-
     if(number >= 25)
     {
         fractalTrigonometricSeries();
-        emit finished(Colindex);
     }
     else if(number >= 50)
     {
         exponentialSum3D();
-        emit finished(Colindex);
     }
     else if(number >=75)
     {
         modularChaoticMap();
-        emit finished(Colindex);
     }
     else if(number < 25 )
     {
         CircleArea();
-        emit finished(Colindex);
     }
     else
     {
         qDebug() << "Ошибка в рандоме!";
     }
+    emit finished(Colindex);
     }
 
 
