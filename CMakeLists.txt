@@ -12,6 +12,7 @@ qt_add_executable(MultiThreadApp
     mainwindow.h
     mainwindow.ui
     Work.h Work.cpp
+    README.md
 
 )
 
