@@ -11,6 +11,8 @@ qt_add_executable(MultiThreadApp
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    Work.h Work.cpp
+
 )
 
 qt_add_translations(
