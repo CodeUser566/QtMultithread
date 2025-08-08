@@ -1,13 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "Work.h"
-
-#include <QTableWidget>
-#include <QHeaderView>
 #include <QProgressBar>
-#include <QTableWidgetItem>
-#include <QThread>
-#include <QVBoxLayout>
 
 
 

@@ -14,8 +14,6 @@ int Work::Roll()
 
 void Work::fractalTrigonometricSeries()
 {
-    // эмуляция ресурсоёмкой работы:
-    // цикл от 0 до 100, в котором считаем сложное выражение
     for(int p = 0; p <= 100; ++p) {
         double x = 0;
         for(int i = 0; i < 200; ++i) {
@@ -36,8 +34,6 @@ void Work::fractalTrigonometricSeries()
 
 void Work::exponentialSum3D()
 {
-    // эмуляция ресурсоёмкой работы:
-    // цикл от 0 до 100, в котором считаем сложное выражение
     for(int p = 0; p <= 100; ++p) {
         for (int i = 0; i < 6; ++i) {
             double sum = 0.0;
@@ -61,8 +57,6 @@ void Work::exponentialSum3D()
 
 void Work::modularChaoticMap()
 {
-    // эмуляция ресурсоёмкой работы:
-    // цикл от 0 до 100, в котором считаем сложное выражение
     for(int p = 0; p <= 100; ++p) {
         double x = 0;
         for(int i = 0; i < 5; ++i) {
@@ -87,8 +81,6 @@ void Work::modularChaoticMap()
 
 void Work::CircleArea()
 {
-    // эмуляция ресурсоёмкой работы:
-    // цикл от 0 до 100, в котором считаем сложное выражение
     for(int p = 0; p <= 100; ++p) {
         // «тяжёлый» подсчёт
         double x = 0;
